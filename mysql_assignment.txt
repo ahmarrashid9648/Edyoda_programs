@@ -1,0 +1,5 @@
+1 - SELECT first_name,last_name,email,store_id -> FROM staff; 
+2 - select count(inventory_id) -> from inventory -> group by store_id; 
+3 - select count(active) as active_customer, store_id -> from customer -> group by store_id; 
+4 - > select count(email) as customer_email -> from customer; 
+5 - SELECT COUNT(distinct title) as unique_title,COUNT(distinct category) as unique_category -> FROM film_list;
